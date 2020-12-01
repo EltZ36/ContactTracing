@@ -3,11 +3,16 @@
 
 <head>
 	<meta en="us">
-	<link href="static/styles.css" rel="stylesheet" type="text/css" />
-	<script src="scripts.js/main.js">
-  </script>
+	<link href="static/css/styles.css" rel="stylesheet" type="text/css">
+	<!-- google fonts-->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<!-- google maps need an api key-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly"
+	 defer>
+	</script>
+	<script type="text/javascript" src="static/main.js" />
+	</script>
 	<title>Contact Tracing</title>
 </head>
 
@@ -16,8 +21,15 @@
 		<h1>Questions</h1>
 	</header>
 	<main>
-		<p>Answer the questions below:</p>
-		<p>To go back, click <a href="/">here</a></p>
+		<h2>Answer the questions below:</h2>
+		<form action="/data" method="POST">
+		<p>When did you get postive for Covid-19? <input type = "text" name = "text" /></p>
+    <p>Where do you think you get it?  <input type = "text" name = "text" /></p>
+    <p>Who do you think gave it to you? <input type = "text" name = "text" /></p>
+    <p><input type = "submit" value = "Submit" /></p>
+</form>
+		<div id="map"></div>
+    <p>To go back, click <a href="/">here</a></p>
 	</main>
 	<footer>
 		By Elton Z.
