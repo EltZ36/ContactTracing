@@ -1,0 +1,62 @@
+header{
+  font-size: 20px;
+  margin: 5px;
+  padding: 10px 10px 10px 10px;
+}
+
+main{
+  padding: 5px 5px 5px 5px;
+}
+
+main p{
+  margin: 5px;
+  padding: 15px 15px 15px 15px;
+}
+
+form{
+  margin: 3px;
+  padding: 10px 10px 10px 10px;
+}
+
+h2{
+  padding: 13px 13px 13px 13px;
+}
+
+a{
+  text-decoration: none;
+  color: #48484d;
+}
+
+a:link{
+  background-color:#ff8000;
+}
+
+a:visited{
+  background-color:cyan;
+}
+
+a:hover{
+  background-color: red;
+}
+
+
+#map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+footer {
+  font-size: 10px;
+  margin: 5px;
+  padding: 10px 10px 10px 10px;
+}
+
+html{
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px;
+  color: #48484d;
+}
