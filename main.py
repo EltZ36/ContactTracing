@@ -1,3 +1,4 @@
+#this file is usually called run.py
 from project import app
 
 app.run(
