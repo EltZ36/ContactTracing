@@ -3,4 +3,3 @@ This will use flask and html to ask you questions about where you traveled and w
 
 Suggestions: Use repl.it to run this. Although it's slower, it's an ide that should be familar and setup is easy. If you are cloning this to repl.it be sure to do in the .replit file or something similar for the language = "python3" and run = "python run.py"
 
-Current issue: Website is giving 404 
