@@ -1,3 +1,2 @@
-#You don't need this if you aren't running this on repl.it
 language = "python 3"
 run = "python main.py"
